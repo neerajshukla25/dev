@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/phaser/3.24.1/phaser.js" crossorigin="true"></script>
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <script type = " text/javascript">
+        const config = {
+            type: Phaser.AUTO,
+            width:800,
+            height:600,
+            physics:{
+                default : "arcade",
+                gravity:{y:300}
+            },
+            scene:{
+               preload : preload,
+               create : create,
+               update : update
+            }
+        }
+        function preload(){
+          this.load.image("sky","assests/sky.png");
+          this.load.image("platform","assests/platform.png");
+          this.load.image("player","assests/player.png");
+          this.load.image("star","assests/star.png");
+
+        }
+        function create(){
+          this.add.image(400,300,"sky");
+        }
+        function update(){
+
+        }
+        new Phaser.Game(config);
+    </script>
+    
+    
+</body>
+</html>

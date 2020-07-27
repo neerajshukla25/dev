@@ -1,0 +1,29 @@
+{
+  "name": "Dev20",
+  "version": "1.0.0",
+  "main": "intro.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "chromedriver": "^83.0.0",
+    "electron": "^9.1.0",
+    "puppeteer": "^5.0.0",
+    "request": "^2.88.2",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neerajshukla25/Dev_june.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neerajshukla25/Dev_june/issues"
+  },
+  "homepage": "https://github.com/neerajshukla25/Dev_june#readme",
+  "description": ""
+}

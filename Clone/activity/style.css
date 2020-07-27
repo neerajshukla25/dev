@@ -1,0 +1,94 @@
+html,body{
+    margin:0px;
+    padding:0px;
+}
+*{
+    box-sizing: border-box;
+}
+.menu-containere{
+
+    height: 35px;
+    border: 1px solid #2e3131;
+    display: flex;
+    background-color: #abb7b7;
+}
+.menu-option-container{
+
+    /* width: 74px; */
+    height: 100px;
+    border: 1px solid#2e3131;
+    display: flex;
+
+}
+.file{
+    padding: 8px;
+}
+.home{
+    padding: 8px;
+}
+.menu-options-home{
+    display: flex;
+}
+.formula-container{
+
+    height: 22px;
+    border: 1px solid #2e3131;
+
+}
+ .row{
+    display: flex;
+}
+.cell{
+    min-width: 74px;
+     min-height: 26px; 
+    border: 1px solid;
+    text-align: center;
+} 
+.content-container{
+    height: calc(100vh - 162px);
+    border: 1px solid #2e3131;
+    position: relative;
+}
+.top-left-cell{
+    background-color: cadetblue;
+    height: 25px;
+    width: 25px;
+    z-index: 3;
+    position: absolute;
+}
+.top-row{
+    display: flex;
+    z-index: 2;
+    position: absolute;
+    left: 25px;
+}
+.top-row>.cell{
+    border: 1px solid black;
+    min-width: 74px;
+}
+.left-col{
+    width:25px;
+    position: absolute;
+    z-index: 2;
+    top:25px;
+}
+.left-col>.cell{
+    
+    min-width: 25px;
+    /* width: 25px; */
+    border:1px solid black;
+
+}
+.grid{
+position: absolute;
+left: 25px;
+z-index: 1;
+top: 26px;
+overflow: hidden;
+}
+
+.sheet-container{
+    height:20px;
+    border: 2px gray;
+    background-color: cadetblue;
+}

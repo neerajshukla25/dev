@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+body{
+    height:100vh;
+}
+.top-row{
+    background-color: aliceblue;
+    height: 80px;
+    display: flex;
+}
+.btn{
+    display: flex; 
+    min-width: 20%;
+    justify-content: space-evenly;
+}
+.new{
+    border: 1px solid;
+    background-color: darkgray;
+    width: 80px;
+    margin: 20px;
+}
+.save{
+    border: 1px solid;  
+    background-color: darkgray;
+    width: 80px;
+    margin: 20px;
+}
+.tabs{
+    width: 80%;
+    background-color: beige;
+    margin: 20px 0;
+    border: 1px solid;
+}
+.main{
+    height: 89%;
+    
+    display: flex;
+}
+.file-explorer{
+    width: 20%;
+    background-color: darkseagreen;
+    border: 1px solid;
+}
+.content-container{
+    width: 80%;
+}
+.editor{
+    background-color: burlywood;
+    height: 74%;
+}
+.terminal{
+    height: 26%;
+    background-color: antiquewhite;
+}
